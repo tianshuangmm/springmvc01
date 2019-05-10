@@ -25,7 +25,7 @@ import java.util.Map;
 public class CourseController {
     private Logger log =  LoggerFactory.getLogger(CourseController.class);
     /**
-     * 注入对象
+     * 注入对象 2种方式
      */
     /*@Resource(name="courseService")*/
     private CourseService courseService;
